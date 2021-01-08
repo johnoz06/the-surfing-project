@@ -13,7 +13,7 @@
     <title>The surfing project</title>
   </head>
 
-<header cz-shortcut-listen="true">
+<header class="titre" cz-shortcut-listen="true">
     <!--ajout de la barre de nav haute
     <div class="d-flex flex-column flex-md-row align-items-sart p-3 px-md-4 mb-3 bg-grey border-top shadow-sm">
         <nav>
@@ -24,14 +24,38 @@
         </nav>
       </div>-->
 
-      <nav class="navbar navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">The surfing project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Le programme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos prochaines sessions</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Navbar text with an inline element
+          </span>
+        </div>
+      </nav>
+
+
+      <!--<nav class="navbar navbar-dark bg-dark">
         <span class="navbar-text">
             The surfing project
-            <a class="p-2 text-white" href="#">Acceuil</a>
+            <a class="p-2 text-light" href="#">Acceuil</a>
             <a class="p-2 text-light" href="#">Le programme</a>
-            <a class="p-2 text-grey" href="#">Nos prochaines sessions</a>
+            <a class="p-2 text-light" href="#">Nos prochaines sessions</a>
         </span>
-      </nav>
+      </nav>-->
 
     <!--<nav>
         <ul>
@@ -48,8 +72,8 @@
                 <a href="#">Nos prochaines sessions</a>
             </li>
         </ul>
-    </nav>
-</header>-->
+    </nav>-->
+</header> 
 
 <!--creation du corps en section-->
 <body>
